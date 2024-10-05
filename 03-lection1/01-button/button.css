@@ -1,1 +1,64 @@
 /* Стилизация кнопки */
+
+.buttons__button {
+    width: 168px;
+    height: 48px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button__button-blue {
+    background-color: #4263eb;
+    color: white;
+    border: none;
+}
+
+.button__button-blue:hover {
+    background-color: #394b95;
+    color: white;
+    border: none;
+}
+
+.button__button-purple {
+    background-color: #6f48e8;
+    color: white;
+    border: none;
+}
+
+.button__button-purple:hover {
+    background-color: #442d88;
+    color: white;
+    border: none;
+}
+
+.button__button-white {
+    background-color: white;
+    border-color: rgb(195, 195, 195);
+}
+
+.button__button-white:hover {
+    border-color: rgb(41, 41, 41);
+    color: rgb(145, 145, 145);
+}
+
+.button__button-blue-disabled:disabled {
+    background-color: #A1B2F6;
+    color: #D4DBFB;
+    border: none;
+    cursor: not-allowed; 
+}
+
+.button__button-purple-disabled:disabled {
+    background-color: #B8A4F6;
+    color: #E4DDFB;
+    border: none;
+    cursor: not-allowed; 
+}
+
+.button__button-white-disabled:disabled {
+    background-color: #ffffff;
+    color: #E4DDFB;
+    border-color: rgb(180, 180, 180);
+    cursor: not-allowed; 
+}
+

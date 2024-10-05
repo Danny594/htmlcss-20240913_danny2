@@ -1,1 +1,16 @@
 /* Стилизация аккордеона */
+.accordion__summary {  /* нестандартный псевдоэлемент Google Chrome */
+    list-style: none;
+}
+
+.accordion {
+    cursor: pointer;
+    border: 2px solid #d2d7db;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.accordion:hover {
+    background-color: rgba(0,0,0,0.05);
+}
